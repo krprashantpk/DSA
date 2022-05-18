@@ -28,16 +28,16 @@
 
 #### Time Complexity
 
-| **Algorithm**   | **Complexity** |
-| --------------- | -------------- |
-| Bubble Sort     | $O(n^2)$       |
-| Insertion Sort  | $O(n^2)$       |
-| Selection Sort  | $O(n^2)$       |
-| Heap Sort       | $O(nlogn)$     |
-| Merge Sort      | $O(nlogn)$     |
-| Quick Sort      | $O(nlogn)$     |
-| Tree Sort       | $O(n^(3/2))$   |
-| Shell Sort      | $O(n^2)$       |
-| Count Sort      | $O(n)$         |
-| Bucket/Bin Sort | $O(n)$         |
-| Radix Sort      | $O(n)$         |
+| **Algorithm**   | **Complexity**     |
+| --------------- | ------------------ |
+| Bubble Sort     | O(n<sup>2</sup>)   |
+| Insertion Sort  | O(n<sup>2</sup>)   |
+| Selection Sort  | O(n<sup>2</sup>)   |
+| Heap Sort       | O(nlogn)           |
+| Merge Sort      | O(nlogn)           |
+| Quick Sort      | O(nlogn)           |
+| Tree Sort       | O(n<sup>3/2</sup>) |
+| Shell Sort      | O(n<sup>2</sup>)   |
+| Count Sort      | O(n)               |
+| Bucket/Bin Sort | O(n)               |
+| Radix Sort      | O(n)               |
