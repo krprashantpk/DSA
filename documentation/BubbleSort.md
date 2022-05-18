@@ -34,8 +34,8 @@ If the iteration doesn't swap any element, list is sorted.
 
 ### Analysis of the Algorithms
 
-- Number of the Passes `-->` $n-1$
-- Number of Comparision `-->` $n(n-1)/2$ `-->` $O(n^2)$
-- Number of the Swap `-->` $n(n-1)/2$ `-->` $O(n^2)$
+- Number of the Passes `-->` n-1
+- Number of Comparision `-->` n(n-1)/2 `-->` O(n<sup>2</sup>)
+- Number of the Swap `-->` n(n-1)/2 `-->` O(n<sup>2</sup>)
 
 > _With each pass/iteration we get one largest element, So if perform `k` passes we will get `k` largest elements. If we need to find `k^th^` element, so instead of sorting all the element in the list we use to algorithm to find the `k^th^` element. Drawback is the list will be half sorted and halfunsorted._
