@@ -8,6 +8,8 @@ namespace DSA.Algorithms.Sorts
 {
     public static class BubbleSortAlgorithm
     {
+
+        
         public static void BubbleOrderByDescending<T>(this T[] array) where T : IComparable<T>
         {
             if (array == null) throw new ArgumentNullException("array");

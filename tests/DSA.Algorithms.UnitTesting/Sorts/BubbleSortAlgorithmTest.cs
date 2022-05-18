@@ -29,7 +29,7 @@ namespace DSA.Algorithms.UnitTesting.Sorts
         [InlineData(new int[] { 10 }, new int[] { 10 })]
         [InlineData(new int[] { 10, 10, 10 }, new int[] { 10, 10, 10 })]
         [InlineData(new int[] { -10, 1, 10 }, new int[] { 10, 1, -10 })]
-        [InlineData(new int[] { -10, 1, -20 }, new int[] { 1 ,-10, -20})]
+        [InlineData(new int[] { -10, 1, -20 }, new int[] { 1, -10, -20 })]
         [InlineData(new int[] { 10, 5, 12, 19, 1, 5 }, new int[] { 19, 12, 10, 5, 5, 1 })]
         public void WhenIntInputIsValidArrayShouldOrderByDescending(int[] array, int[] sort)
         {
@@ -40,12 +40,12 @@ namespace DSA.Algorithms.UnitTesting.Sorts
         [Theory]
         [InlineData(new string[] { "a" }, new string[] { "a" })]
         [InlineData(new string[] { "a", "a", "a" }, new string[] { "a", "a", "a" })]
-        [InlineData(new string[] { "z", "a", "c" }, new string[] { "a", "c", "z"})]
-        [InlineData(new string[] { "az","ab","aza" }, new string[] { "ab", "az", "aza"})]
+        [InlineData(new string[] { "z", "a", "c" }, new string[] { "a", "c", "z" })]
+        [InlineData(new string[] { "az", "ab", "aza" }, new string[] { "ab", "az", "aza" })]
 
         public void WhenStringInputIsValidArrayShouldBeSorted(string[] array, string[] sort)
         {
-            
+
             array.BubbleOrderBy();
             Assert.Equal(sort, array);
         }
@@ -54,7 +54,7 @@ namespace DSA.Algorithms.UnitTesting.Sorts
         [InlineData(new string[] { "a" }, new string[] { "a" })]
         [InlineData(new string[] { "a", "a", "a" }, new string[] { "a", "a", "a" })]
         [InlineData(new string[] { "z", "a", "c" }, new string[] { "z", "c", "a" })]
-        [InlineData(new string[] { "az", "ab", "aza" }, new string[] { "aza" , "az", "ab"})]
+        [InlineData(new string[] { "az", "ab", "aza" }, new string[] { "aza", "az", "ab" })]
 
         public void WhenStringInputIsValidArrayShouldOrderByDescending(string[] array, string[] sort)
         {
